@@ -2,11 +2,7 @@
   background: #2c3e50;
   height: 100px;
 }
-.row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .destra{
   text-align: right;
 }
@@ -40,8 +36,87 @@ header > nav > div >h1{
 .sec1 > div > img{
   height: 250px;
 }
+.sec1 > div > h1{
+  padding-top: 10px;
+  font-size: 65px;
+}
+.sec1 > div > p{
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 80px;
+}
 .sec1::after{
   content: "";
   display: table;
   clear: both;
+}
+.starts{
+  color: white;
+  text-align: center;
+}
+.line{
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.icon{
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 35px;
+}
+.sec2 > .starts{
+  color: black;
+}
+.sec2 > .starts > .line{
+  background-color: black;
+}
+.sec2{
+  text-align: center;
+  padding-top: 100px;
+}
+.sec2 > h2 {
+  font-size: 50px;
+}
+.sec2 > .container > div > a > img {
+  height: 250px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.immagini{
+  padding-bottom: 80px;
+}
+.sec3{
+  background-color: #1abc9c;
+  text-align: center;
+  padding-top: 80px;
+}
+.sec3 > h2{
+  font-size: 50px;
+  color: white;
+}
+.scritte > div > p{
+  text-align: left;
+  font-size: 19px;
+  color: white;
+}
+.scritte{
+  padding-top: 30px;
+}
+#scarica{
+  padding: 17px 40px;
+  background-color: rgba(255, 0, 0, 0.0);
+  border: solid 2px white;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#scarica:hover{
+  background-color: white;
+  color: black;
+  transition: color .35s ease-in-out, background-color .35s ease-in-out, border-color .35s ease-in-out, box-shadow .35s ease-in-out;
 }
