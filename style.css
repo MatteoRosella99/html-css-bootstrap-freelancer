@@ -1,0 +1,47 @@
+.row{
+  background: #2c3e50;
+  height: 100px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.destra{
+  text-align: right;
+}
+.destra > li{
+  display: inline-block;
+  padding-top: 34px;
+  padding-right: 40px;
+  text-align: right;
+}
+.destra > li > a{
+  color: white;
+  font-size: 19px;
+}
+li > a:hover{
+  text-decoration: none;
+  color: green;
+}
+header > nav > div >h1{
+  color: white;
+  padding-top: 10px;
+  font-size: 28px;
+}
+.sec1{
+  background: #1abc9c;
+  padding-top: 200px;
+}
+.sec1 > div {
+  text-align: center;
+  color: white;
+}
+.sec1 > div > img{
+  height: 250px;
+}
+.sec1::after{
+  content: "";
+  display: table;
+  clear: both;
+}
