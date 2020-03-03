@@ -1,8 +1,15 @@
-.row{
-  background: #2c3e50;
-  height: 100px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fjalla One', sans-serif;
 }
 
+.row{
+  background: #2c3e50;
+  padding-bottom: 20px;
+
+}
 .destra{
   text-align: right;
 }
@@ -105,6 +112,63 @@ header > nav > div >h1{
 .scritte{
   padding-top: 30px;
 }
+.container > .form-group > input{
+  font-size: 26px;
+  padding: 40px;
+  border: none;
+  margin: auto;
+  width: 70%;
+}
+.nope{
+  text-align: left;
+}
+.foot{
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+}
+.foot > .container > div{
+  padding: 0 18px;
+  margin-bottom: 90px;
+}
+.foot > .container > div > ul > li{
+  display: inline-block;
+  margin: 10px 10px;
+  font-size: 27px;
+  border: white solid 2px;
+  border-radius: 50%;
+  padding: 4px 0;
+}
+.foot > .container > div > ul > li:hover{
+  background-color: white;
+  transition: color .35s ease-in-out, background-color .35s ease-in-out, border-color .35s ease-in-out, box-shadow .35s ease-in-out;
+}
+.foot > .container > div > ul >li >a{
+  color: white;
+  margin: 60px 15px;
+}
+.foot > .container > div > ul >li >a:hover{
+  color: black;
+  transition: color .35s ease-in-out, background-color .35s ease-in-out, border-color .35s ease-in-out, box-shadow .35s ease-in-out;
+}
+.foot > .container > div > h3{
+  font-size: 29px;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+.foot > .container > div > p{
+  font-size: 20px;
+}
+.foot > .container > div > p > span > a{
+  color: green
+}
+.copyright{
+  text-align: center;
+  background-color: #1a252f;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
 #scarica{
   padding: 17px 40px;
   background-color: rgba(255, 0, 0, 0.0);
@@ -119,4 +183,15 @@ header > nav > div >h1{
   background-color: white;
   color: black;
   transition: color .35s ease-in-out, background-color .35s ease-in-out, border-color .35s ease-in-out, box-shadow .35s ease-in-out;
+}
+#send{
+  padding: 16px 35px;
+  background-color: #1abc9c;
+  border: solid 2px white;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  color: white;
+  font-size: 23px;
+  border-radius: 10px;
+  margin-left: 204px;
 }
